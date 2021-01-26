@@ -1,0 +1,6 @@
+framework module SupportCarthageSDK {
+  umbrella header "SupportCarthageSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SupportCarthageSDK_Example {
+  umbrella header "Pods-SupportCarthageSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

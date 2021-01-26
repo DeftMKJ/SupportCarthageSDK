@@ -1,0 +1,31 @@
+{
+  "name": "SupportCarthageSDK",
+  "version": "1.0.0",
+  "summary": "A short description of SupportCarthageSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/714831204@qq.com/SupportCarthageSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "714831204@qq.com": "meikiemi@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/714831204@qq.com/SupportCarthageSDK.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SupportCarthageSDK/Classes/**/*",
+  "public_header_files": "SupportCarthageSDK/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
+}
