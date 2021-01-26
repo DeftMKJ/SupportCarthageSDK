@@ -4,6 +4,8 @@ platform :ios, '9.0'
 
 target 'SupportCarthageSDK_Example' do
   pod 'SupportCarthageSDK', :path => '../'
+  pod 'Masonry'
+  pod 'AFNetworking'
 
   target 'SupportCarthageSDK_Tests' do
     inherit! :search_paths

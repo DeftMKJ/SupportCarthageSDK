@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SupportCarthageSDK'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of SupportCarthageSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,8 @@ TODO: Add long description of the pod here.
   #   'SupportCarthageSDK' => ['SupportCarthageSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'SupportCarthageSDK/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
 end
